@@ -5,3 +5,8 @@ spring:
     name: user
   profiles:
     active: dev
+    
+eureka:
+  instance:
+    hostname: ${spring.cloud.client.ip-address}
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
