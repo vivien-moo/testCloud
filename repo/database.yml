@@ -9,7 +9,7 @@ spring:
 
   #配置Druid数据源
   datasource:
-    url: jdbc:jdbc:mysql://localhost:3306/demo?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false
+    url: jdbc:jdbc:mysql://localhost:3306/demo?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 123456
     #使用druid数据源
