@@ -1,7 +1,7 @@
 #mybatis_config
 mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
-  config-location: classpath:mybatis/mybatis-config.xml
+  #config-location: classpath:mybatis/mybatis-config.xml
 #datasource
 spring:
   #开发时关闭页面缓存，不然无法看到实时页面
